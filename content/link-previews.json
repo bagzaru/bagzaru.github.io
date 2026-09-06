@@ -1,4 +1,10 @@
 {
+  "https://github.com/bagzaru": {
+    "title": "bagzaru - Overview",
+    "image": "link-previews/0865cb0196eb.webp",
+    "type": "image",
+    "icon": false
+  },
   "https://blog.naver.com/bagzaru": {
     "title": "칼레디의 보관소 : 네이버 블로그",
     "image": "link-previews/7c8678cd2b13.webp",
@@ -11,11 +17,12 @@
     "type": "image",
     "icon": true
   },
-  "https://github.com/bagzaru": {
-    "title": "bagzaru - Overview",
-    "image": "link-previews/0865cb0196eb.webp",
-    "type": "image",
-    "icon": false
+  "https://bagzaru.notion.site/2016-Revival-Gunin-1f2e8d78ef8281e28177cefbf6109d9e": {
+    "title": "2016: Revival Gunin",
+    "image": "link-previews/4ad67f70656b.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
   },
   "https://bagzaru.notion.site/2017-Lost-Melody-1f2e8d78ef8280b48cfadac80af86d10?pvs=74": {
     "title": "2017: 잃어버린 노래(Lost Melody)",
@@ -31,9 +38,9 @@
     "icon": false,
     "source": "local-notion-export"
   },
-  "https://bagzaru.notion.site/2016-Revival-Gunin-1f2e8d78ef8281e28177cefbf6109d9e": {
-    "title": "2016: Revival Gunin",
-    "image": "link-previews/4ad67f70656b.mp4",
+  "https://bagzaru.notion.site/2017-Ten-Daze-23ee8d78ef8280cc8bd9fc2468ea14c8": {
+    "title": "2017: Ten Daze",
+    "image": "link-previews/cc04702b1dc0.mp4",
     "type": "video",
     "icon": false,
     "source": "local-notion-export"
@@ -42,13 +49,6 @@
     "title": "2019: TetrisWorld",
     "image": "link-previews/c888cbb581dd.webp",
     "type": "image",
-    "icon": false,
-    "source": "local-notion-export"
-  },
-  "https://bagzaru.notion.site/2017-Ten-Daze-23ee8d78ef8280cc8bd9fc2468ea14c8": {
-    "title": "2017: Ten Daze",
-    "image": "link-previews/cc04702b1dc0.mp4",
-    "type": "video",
     "icon": false,
     "source": "local-notion-export"
   },
@@ -101,6 +101,13 @@
     "icon": false,
     "source": "local-notion-export"
   },
+  "https://bagzaru.notion.site/2025-Dwarf-Underground-23ee8d78ef828018adbbc38f813f74e2": {
+    "title": "2025: Dwarf Underground",
+    "image": "link-previews/aab0e9eda142.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
   "https://store.steampowered.com/app/553420/TUNIC/": {
     "title": "TUNIC on Steam",
     "image": "link-previews/d28f5f445850.webp",
@@ -132,13 +139,6 @@
     "icon": false,
     "source": "local-notion-export"
   },
-  "https://bagzaru.notion.site/W11-HitBox-0e998e627e5949d9a6de6a4fe058379d": {
-    "title": "W11: 근접 공격 구현(HitBox)",
-    "image": "link-previews/a81058a74910.webp",
-    "type": "image",
-    "icon": false,
-    "source": "local-notion-export"
-  },
   "https://bagzaru.notion.site/W11-Warhammer-3205a5a7b4f740738d55adc7be27027b": {
     "title": "W11: Warhammer 액션 분석",
     "image": "link-previews/8b6898d49d0d.webp",
@@ -146,16 +146,9 @@
     "icon": false,
     "source": "local-notion-export"
   },
-  "https://bagzaru.notion.site/2025-Dwarf-Underground-23ee8d78ef828018adbbc38f813f74e2": {
-    "title": "2025: Dwarf Underground",
-    "image": "link-previews/aab0e9eda142.mp4",
-    "type": "video",
-    "icon": false,
-    "source": "local-notion-export"
-  },
-  "https://bagzaru.notion.site/W14-d2ec96c5cf9b4e7285acaed0782a1ab1": {
-    "title": "W14: 보간을 통한 충돌 범위 감지",
-    "image": "link-previews/8f5d8f2a23bf.webp",
+  "https://bagzaru.notion.site/W11-HitBox-0e998e627e5949d9a6de6a4fe058379d": {
+    "title": "W11: 근접 공격 구현(HitBox)",
+    "image": "link-previews/a81058a74910.webp",
     "type": "image",
     "icon": false,
     "source": "local-notion-export"
@@ -165,6 +158,13 @@
     "image": "link-previews/4c3698169605.webp",
     "type": "image",
     "icon": true
+  },
+  "https://bagzaru.notion.site/W14-d2ec96c5cf9b4e7285acaed0782a1ab1": {
+    "title": "W14: 보간을 통한 충돌 범위 감지",
+    "image": "link-previews/8f5d8f2a23bf.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
   },
   "https://store.steampowered.com/app/2735700/Maneuver/": {
     "title": "Maneuver on Steam",
@@ -178,22 +178,28 @@
     "type": "image",
     "icon": true
   },
-  "https://bagzaru.notion.site/240e8d78ef8280d18294e9055538574f": {
-    "title": "구현 보고서 중 발췌",
-    "image": "link-previews/69c794f7222b.webp",
-    "type": "image",
-    "icon": true
-  },
   "https://github.com/bagzaru/simple_git_gui": {
     "title": "GitHub - bagzaru/simple_git_gui",
     "image": "link-previews/a304c5f59c70.webp",
     "type": "image",
     "icon": false
   },
+  "https://bagzaru.notion.site/240e8d78ef8280d18294e9055538574f": {
+    "title": "구현 보고서 중 발췌",
+    "image": "link-previews/69c794f7222b.webp",
+    "type": "image",
+    "icon": true
+  },
   "https://drive.google.com/file/d/18-n_3JyW-PduDOD3Fm_jaEt8MwkJy2pP/view?usp=sharing": {
     "title": "Framework_201202.zip",
     "image": "link-previews/230e3cdda6ea.webp",
     "type": "image",
     "icon": true
+  },
+  "https://bagzaru.notion.site/2025-CampingAloneVR-3d3e8d78ef828097afe8fbf9e7df9e7a": {
+    "title": "2025: CampingAloneVR",
+    "image": "link-previews/763fd4162820.mp4",
+    "type": "video",
+    "icon": false
   }
 }

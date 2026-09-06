@@ -20,16 +20,16 @@
 #### 2023
 - [Simple-Git-GUI - 오픈소스 소프트웨어 프로젝트 과목 과제, Java 기반 Git GUI 툴 제작 담당.](https://bagzaru.notion.site/2023-Simple-Git-GUI-23ee8d78ef828055815de7913219783e?pvs=74)
 #### 2023 - 크래프톤 정글 게임랩 1기
-- [Way to Work - 3D 플랫포머 게임](https://bagzaru.notion.site/2023-Way-to-Work-23ee8d78ef8280ce98c6f85817180bf6)
-- [줍는 닌자 - 탑뷰 액션 게임, ](https://bagzaru.notion.site/2023-23ee8d78ef82809da422c47527f3991b)
+- [Way to Work - 3D 플랫포머 게임, 점프, 카메라, 투사체 담당](https://bagzaru.notion.site/2023-Way-to-Work-23ee8d78ef8280ce98c6f85817180bf6)
+- [줍는 닌자 - 탑뷰 액션 게임, 수리검 구현 담당](https://bagzaru.notion.site/2023-23ee8d78ef82809da422c47527f3991b)
 - [Maneuver - 3D 1인칭 액션 게임, 근접 전투 시스템, AI 등 구현 담당.](https://bagzaru.notion.site/2023-2024-Maneuver-1f2e8d78ef828169a040c230befdee0e)
 #### 2024
 - [WHAT - AI 인덱싱 기반 방문 기록 크롬 익스텐션. 크롬 익스텐션 프론트엔드 구현 담당.](https://bagzaru.notion.site/2024-WHAT-Web-History-AI-Tool-23ee8d78ef8280f7b5a7d226b7f42ded)
 #### 2025
-- [Dwarf Underground - UI 구현, 아이템 관련 담당.](https://bagzaru.notion.site/2025-Dwarf-Underground-23ee8d78ef828018adbbc38f813f74e2)
-- [Camping Alone VR - 이동, 카메라 회전, 단검, 아이템 사용 담당.]
+- [Dwarf Underground - 쿼터뷰 실시간 전략 게임, UI 구현, 아이템 관련 담당.](https://bagzaru.notion.site/2025-Dwarf-Underground-23ee8d78ef828018adbbc38f813f74e2)
+- [Camping Alone VR - VR 1인칭 생존 힐링 게임, 이동, 카메라 회전, 단검, 아이템 사용 담당.](https://bagzaru.notion.site/2025-CampingAloneVR-3d3e8d78ef828097afe8fbf9e7df9e7a)
 ### 2026
-- BeThePlayer - 현재 진행중인 근접 전투 액션.
+- [BeThePlayer(현재 개발 중) - 쿼터뷰 소울라이크 액션, 전체 개발 담당](#be-the-player)
 
 ## 좋아하는 게임
 ---
