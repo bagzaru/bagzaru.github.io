@@ -45,6 +45,7 @@ for (let index = 0; index < pages.length; index++) {
     image.className = video.className;
     video.replaceWith(image);
   });
+  sheet.querySelectorAll('.document-media > a').forEach(link => link.replaceWith(...link.childNodes));
   sheet.querySelectorAll('a[href^="#"]').forEach(link => link.href = 'https://bagzaru.github.io/' + link.getAttribute('href'));
   sheet.querySelectorAll('img').forEach(image => image.loading = 'eager');
   if (pages[index].id === 'cover') {
