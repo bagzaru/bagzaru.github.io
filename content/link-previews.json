@@ -1,0 +1,199 @@
+{
+  "https://blog.naver.com/bagzaru": {
+    "title": "칼레디의 보관소 : 네이버 블로그",
+    "image": "link-previews/7c8678cd2b13.webp",
+    "type": "image",
+    "icon": true
+  },
+  "https://bagzaru.notion.site/devlog": {
+    "title": "Notion | Where teams and agents work together",
+    "image": "link-previews/2afa2be4581d.webp",
+    "type": "image",
+    "icon": true
+  },
+  "https://github.com/bagzaru": {
+    "title": "bagzaru - Overview",
+    "image": "link-previews/0865cb0196eb.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://bagzaru.notion.site/2017-Lost-Melody-1f2e8d78ef8280b48cfadac80af86d10?pvs=74": {
+    "title": "2017: 잃어버린 노래(Lost Melody)",
+    "image": "link-previews/fde3833b56a0.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2017-Lunaway-1f2e8d78ef8281a384fceb05a89bc7aa": {
+    "title": "2017: Lunaway",
+    "image": "link-previews/ca9654427c63.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2016-Revival-Gunin-1f2e8d78ef8281e28177cefbf6109d9e": {
+    "title": "2016: Revival Gunin",
+    "image": "link-previews/4ad67f70656b.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2019-TetrisWorld-1f2e8d78ef8281e7a36cfb21e11d5ac9": {
+    "title": "2019: TetrisWorld",
+    "image": "link-previews/c888cbb581dd.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2017-Ten-Daze-23ee8d78ef8280cc8bd9fc2468ea14c8": {
+    "title": "2017: Ten Daze",
+    "image": "link-previews/cc04702b1dc0.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2020-Colorful-Bullet-Hell-1f2e8d78ef82811fbb1cddec7750b979?pvs=74": {
+    "title": "2020: Colorful Bullet Hell",
+    "image": "link-previews/60d57611f61f.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2019-2020-2D-1f2e8d78ef8280328a55f49c001c2e0c?pvs=74": {
+    "title": "2019~2020: 2D게임 프레임워크",
+    "image": "link-previews/e187ab27be71.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2023-Simple-Git-GUI-23ee8d78ef828055815de7913219783e?pvs=74": {
+    "title": "2023: Simple-Git-GUI",
+    "image": "link-previews/7d636b52d39e.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2023-Way-to-Work-23ee8d78ef8280ce98c6f85817180bf6": {
+    "title": "2023: Way to Work",
+    "image": "link-previews/ce1052fdab6f.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2023-23ee8d78ef82809da422c47527f3991b": {
+    "title": "2023: 줍는 닌자",
+    "image": "link-previews/35fa1224856e.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2023-2024-Maneuver-1f2e8d78ef828169a040c230befdee0e": {
+    "title": "2023~2024: Maneuver",
+    "image": "link-previews/f08c79fada5b.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2024-WHAT-Web-History-AI-Tool-23ee8d78ef8280f7b5a7d226b7f42ded": {
+    "title": "2024: WHAT: Web History AI Tool",
+    "image": "link-previews/447f6365c520.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://store.steampowered.com/app/553420/TUNIC/": {
+    "title": "TUNIC on Steam",
+    "image": "link-previews/d28f5f445850.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://store.steampowered.com/app/1245620/ELDEN_RING/": {
+    "title": "ELDEN RING on Steam",
+    "image": "link-previews/44765c7725c8.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://maplestory.nexon.com": {
+    "title": "[메이플스토리] 2026년 8월 업데이트",
+    "image": "link-previews/dad5e6b71eba.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://store.steampowered.com/app/1903340/__33/": {
+    "title": "Save 20% on Clair Obscur: Expedition 33 on Steam",
+    "image": "link-previews/ec246734f5d2.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://bagzaru.notion.site/23-12-29-NavMesh-9da8ba2a6ac1414ebabfa973eb9639c9": {
+    "title": "23.12.29 NavMesh중 코너에 가면 속도가 느려지고 이상하게 움직임",
+    "image": "link-previews/31bb40c49ae5.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/W11-HitBox-0e998e627e5949d9a6de6a4fe058379d": {
+    "title": "W11: 근접 공격 구현(HitBox)",
+    "image": "link-previews/a81058a74910.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/W11-Warhammer-3205a5a7b4f740738d55adc7be27027b": {
+    "title": "W11: Warhammer 액션 분석",
+    "image": "link-previews/8b6898d49d0d.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2025-Dwarf-Underground-23ee8d78ef828018adbbc38f813f74e2": {
+    "title": "2025: Dwarf Underground",
+    "image": "link-previews/aab0e9eda142.mp4",
+    "type": "video",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/W14-d2ec96c5cf9b4e7285acaed0782a1ab1": {
+    "title": "W14: 보간을 통한 충돌 범위 감지",
+    "image": "link-previews/8f5d8f2a23bf.webp",
+    "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/W11-Attack-Hit-Box-30918820395d4f679040474dfcef5b33": {
+    "title": "W11: Attack Hit Box 컴포넌트",
+    "image": "link-previews/4c3698169605.webp",
+    "type": "image",
+    "icon": true
+  },
+  "https://store.steampowered.com/app/2735700/Maneuver/": {
+    "title": "Maneuver on Steam",
+    "image": "link-previews/2616a0deeff6.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://bagzaru.notion.site/Perforce-1a0e8d78ef8280548a89fb16dfc08fbd?pvs=74": {
+    "title": "Perforce 사용법",
+    "image": "link-previews/fb022b421728.webp",
+    "type": "image",
+    "icon": true
+  },
+  "https://bagzaru.notion.site/240e8d78ef8280d18294e9055538574f": {
+    "title": "구현 보고서 중 발췌",
+    "image": "link-previews/69c794f7222b.webp",
+    "type": "image",
+    "icon": true
+  },
+  "https://github.com/bagzaru/simple_git_gui": {
+    "title": "GitHub - bagzaru/simple_git_gui",
+    "image": "link-previews/a304c5f59c70.webp",
+    "type": "image",
+    "icon": false
+  },
+  "https://drive.google.com/file/d/18-n_3JyW-PduDOD3Fm_jaEt8MwkJy2pP/view?usp=sharing": {
+    "title": "Framework_201202.zip",
+    "image": "link-previews/230e3cdda6ea.webp",
+    "type": "image",
+    "icon": true
+  }
+}
