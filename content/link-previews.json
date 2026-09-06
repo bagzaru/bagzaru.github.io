@@ -5,29 +5,29 @@
     "type": "image",
     "icon": false
   },
-  "https://blog.naver.com/bagzaru": {
-    "title": "칼레디의 보관소 : 네이버 블로그",
-    "image": "link-previews/7c8678cd2b13.webp",
-    "type": "image",
-    "icon": true
-  },
   "https://bagzaru.notion.site/devlog": {
     "title": "Notion | Where teams and agents work together",
     "image": "link-previews/2afa2be4581d.webp",
     "type": "image",
     "icon": true
   },
-  "https://bagzaru.notion.site/2016-Revival-Gunin-1f2e8d78ef8281e28177cefbf6109d9e": {
-    "title": "2016: Revival Gunin",
-    "image": "link-previews/4ad67f70656b.mp4",
-    "type": "video",
-    "icon": false,
-    "source": "local-notion-export"
+  "https://blog.naver.com/bagzaru": {
+    "title": "칼레디의 보관소 : 네이버 블로그",
+    "image": "link-previews/7c8678cd2b13.webp",
+    "type": "image",
+    "icon": true
   },
   "https://bagzaru.notion.site/2017-Lost-Melody-1f2e8d78ef8280b48cfadac80af86d10?pvs=74": {
     "title": "2017: 잃어버린 노래(Lost Melody)",
     "image": "link-previews/fde3833b56a0.webp",
     "type": "image",
+    "icon": false,
+    "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2016-Revival-Gunin-1f2e8d78ef8281e28177cefbf6109d9e": {
+    "title": "2016: Revival Gunin",
+    "image": "link-previews/4ad67f70656b.mp4",
+    "type": "video",
     "icon": false,
     "source": "local-notion-export"
   },
@@ -107,6 +107,12 @@
     "type": "video",
     "icon": false,
     "source": "local-notion-export"
+  },
+  "https://bagzaru.notion.site/2025-CampingAloneVR-3d3e8d78ef828097afe8fbf9e7df9e7a": {
+    "title": "2025: CampingAloneVR",
+    "image": "link-previews/763fd4162820.mp4",
+    "type": "video",
+    "icon": false
   },
   "https://store.steampowered.com/app/553420/TUNIC/": {
     "title": "TUNIC on Steam",
@@ -196,10 +202,10 @@
     "type": "image",
     "icon": true
   },
-  "https://bagzaru.notion.site/2025-CampingAloneVR-3d3e8d78ef828097afe8fbf9e7df9e7a": {
-    "title": "2025: CampingAloneVR",
-    "image": "link-previews/763fd4162820.mp4",
-    "type": "video",
+  "https://bagzaru.notion.site/2026-BeThePlayer-3d3e8d78ef82800fb0d8da4b58953ef8": {
+    "title": "2026: BeThePlayer(개발중)",
+    "image": "link-previews/a6b4b93a5dd5.webp",
+    "type": "image",
     "icon": false
   }
 }

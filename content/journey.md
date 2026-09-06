@@ -29,7 +29,7 @@
 - [Dwarf Underground - 쿼터뷰 실시간 전략 게임, UI 구현, 아이템 관련 담당.](https://bagzaru.notion.site/2025-Dwarf-Underground-23ee8d78ef828018adbbc38f813f74e2)
 - [Camping Alone VR - VR 1인칭 생존 힐링 게임, 이동, 카메라 회전, 단검, 아이템 사용 담당.](https://bagzaru.notion.site/2025-CampingAloneVR-3d3e8d78ef828097afe8fbf9e7df9e7a)
 ### 2026
-- [BeThePlayer(현재 개발 중) - 쿼터뷰 소울라이크 액션, 전체 개발 담당](#be-the-player)
+- [2026: BeThePlayer(현재 개발중) - 쿼터뷰 액션 소울라이크, 전체 개발 담당.](https://bagzaru.notion.site/2026-BeThePlayer-3d3e8d78ef82800fb0d8da4b58953ef8)
 
 ## 좋아하는 게임
 ---

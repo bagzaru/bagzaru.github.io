@@ -95,7 +95,6 @@ for (const page of pages) {
   if (page.id === 'journey') {
     // Normalize a pasted Markdown link used as another link's destination.
     markdown = markdown.replace(/\[([^\]\n]+)\]\(\[[^\]\n]+\]\((https?:\/\/[^\s]+?)\)\)/g, '[$1]($2)');
-    markdown = markdown.replace(/^- (BeThePlayer[^\r\n]*)$/m, '- [$1](#be-the-player)');
   }
   // The source cover contains layout directions, not publication copy.
   // Its visible list follows the authoritative index, including new detail pages.

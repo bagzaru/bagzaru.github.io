@@ -59,7 +59,7 @@ export function arrangeLinkCards(article) {
       let summary = description;
       let role = '';
       const sentence = description.match(/^(.*?[.!?])\s+([^.!?]*(?:담당|구현)[^.!?]*[.!?]?)$/);
-      const game = description.match(/^(.*?(?:게임|액션)),\s*(.+담당.*)$/);
+      const game = description.match(/^(.*?(?:게임|액션|소울라이크)),\s*(.+담당.*)$/);
       const assignment = description.match(/^(.*?과제),\s*(.+담당.*)$/);
       if (sentence) [, summary, role] = sentence;
       else if (game) { summary = `${game[1]}.`; role = game[2]; }
