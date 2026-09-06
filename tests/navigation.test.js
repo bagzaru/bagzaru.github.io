@@ -19,10 +19,35 @@ test('document bottom requires 200ms and a new gesture', () => {
 
 test('continued trackpad momentum cannot turn another short page', () => {
   const nav = new PageNavigation(11);
-  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 0 }), 'page');
-  for (let now = 40; now < 1000; now += 40) assert.equal(nav.vertical(1, { top: 0, max: 0, now }), 'wait');
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 0 }), 'wait');
+  for (let now = 40; now < 400; now += 40) assert.equal(nav.vertical(1, { top: 0, max: 0, now }), 'wait');
+  assert.equal(nav.index, 0);
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 600 }), 'page');
+  for (let now = 640; now < 1800; now += 40) assert.equal(nav.vertical(1, { top: 0, max: 0, now }), 'wait');
   assert.equal(nav.index, 1);
-  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 1200 }), 'page');
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 2000 }), 'wait');
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 2200 }), 'page');
+});
+
+test('short-page backwards navigation needs only one gesture and clears confirmation', () => {
+  const nav = new PageNavigation(11, 5);
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 0 }), 'wait');
+  assert.equal(nav.vertical(-1, { top: 0, max: 0, now: 200 }), 'page');
+  assert.equal(nav.index, 4);
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 1400 }), 'wait');
+});
+
+test('keyboard down can still navigate a short page with one press', () => {
+  const nav = new PageNavigation(11);
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 0, fresh: true, confirmShortForward: false }), 'page');
+});
+
+test('a layout that becomes scrollable clears short-page confirmation', () => {
+  const nav = new PageNavigation(11);
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 0 }), 'wait');
+  nav.observe(0, 500, 200);
+  nav.observe(0, 0, 400);
+  assert.equal(nav.vertical(1, { top: 0, max: 0, now: 600 }), 'wait');
 });
 
 test('top edge follows the same delay when moving backwards', () => {

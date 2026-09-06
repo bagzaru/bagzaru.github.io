@@ -136,6 +136,35 @@ function renderPage({ backwards = false, focus = false } = {}) {
       gallery.append(...scenes);
     }
   }
+  if (page.id === 'maneuver-more') {
+    const mediaForHeading = title => {
+      const heading = [...article.querySelectorAll(':scope > h3')].find(node => node.textContent.trim() === title);
+      const media = [];
+      let node = heading?.nextElementSibling;
+      while (node && !/^H[1-6]$/.test(node.tagName)) {
+        if (node.matches('.document-media')) media.push(node);
+        node = node.nextElementSibling;
+      }
+      return media;
+    };
+    mediaForHeading('대쉬 기능 구현').forEach(media => media.classList.add('dash-media'));
+    const effects = mediaForHeading('무기, 총알 VFX 구현');
+    if (effects.length) {
+      const gallery = document.createElement('div');
+      gallery.className = 'vfx-gallery';
+      effects[0].before(gallery);
+      gallery.append(...effects);
+    }
+  }
+  if (page.id === 'camping-alone-vr') {
+    const photos = [...article.querySelectorAll(':scope > .document-media')].slice(0, 4);
+    if (photos.length === 4) {
+      const gallery = document.createElement('div');
+      gallery.className = 'camping-gallery';
+      photos[0].before(gallery);
+      gallery.append(...photos);
+    }
+  }
   if (page.id === 'simple-git-gui') {
     const photos = [...article.querySelectorAll(':scope > .document-media')].slice(0, 2);
     if (photos.length === 2) {
@@ -228,12 +257,12 @@ function goTo(index, { historyMode = 'push', focus = true } = {}) {
   else if (index === navigation.index && drawerOpen) { setDrawer(false, false); article.querySelector('h1').focus({ preventScroll: true }); }
 }
 
-function vertical(direction, fresh) {
+function vertical(direction, fresh, confirmShortForward = true) {
   if (transitioning || drawerOpen) {
     navigation.lastInput = performance.now();
     return 'wait';
   }
-  const result = navigation.vertical(direction, { top: reader.scrollTop, max: maxScroll(), now: performance.now(), fresh });
+  const result = navigation.vertical(direction, { top: reader.scrollTop, max: maxScroll(), now: performance.now(), fresh, confirmShortForward });
   if (result === 'page') animatePage(direction < 0);
   return result;
 }
@@ -287,7 +316,7 @@ document.addEventListener('keydown', event => {
     if (!event.repeat) goTo(navigation.index + (event.key === 'ArrowRight' ? 1 : -1));
   } else {
     const direction = event.key === 'ArrowDown' ? 1 : -1;
-    if (vertical(direction, !event.repeat) === 'scroll') reader.scrollTop += direction * 72;
+    if (vertical(direction, !event.repeat, false) === 'scroll') reader.scrollTop += direction * 72;
   }
 });
 

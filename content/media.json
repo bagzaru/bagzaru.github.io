@@ -69,12 +69,33 @@
     "width": 1280,
     "height": 720
   },
-  "VR_CamplingAlone_최종시연.mp4": {
-    "url": "media/91992e9b8270.mp4",
+  "CampingAloneVR3.gif": {
+    "url": "media/54baa99233e3.mp4",
     "type": "video",
-    "loop": false,
-    "width": 1280,
-    "height": 720
+    "loop": true,
+    "width": 426,
+    "height": 240
+  },
+  "CampingAloneVR1.gif": {
+    "url": "media/775ae41f6e12.mp4",
+    "type": "video",
+    "loop": true,
+    "width": 426,
+    "height": 240
+  },
+  "CampingAloneVR2.gif": {
+    "url": "media/bf57d2a11159.mp4",
+    "type": "video",
+    "loop": true,
+    "width": 426,
+    "height": 240
+  },
+  "CampingAloneVR4 1.gif": {
+    "url": "media/c053842868a0.mp4",
+    "type": "video",
+    "loop": true,
+    "width": 426,
+    "height": 240
   },
   "Pasted image 20260906092122.png": {
     "url": "media/e0c2c23bd143.png",

@@ -109,6 +109,11 @@ svg { width: 22px; height: 22px; flex: 0 0 auto; }
 .document-media a { display: block; }
 .maneuver-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(6px, 1.5vw, 12px); margin: 26px 0; }
 .maneuver-gallery > .document-media { margin: 0; min-width: 0; }
+.document-media.dash-media { width: 60%; }
+.vfx-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(8px, 2vw, 16px); margin: 26px 0; }
+.vfx-gallery > .document-media { margin: 0; min-width: 0; }
+.camping-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(8px, 2vw, 16px); margin: 26px 0; }
+.camping-gallery > .document-media { margin: 0; min-width: 0; }
 .git-gui-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(8px, 2vw, 20px); align-items: start; margin: 26px 0; }
 .git-gui-gallery > .document-media { width: 100% !important; min-width: 0; margin: 0; }
 .sunrin-gallery { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: clamp(10px, 2vw, 24px); align-items: start; margin: 26px 0; }
