@@ -10,9 +10,9 @@
 여러 테스트 끝에 Obstacle Avoidance가 High Quality일 때 발생하는 문제라는 것을 확인하였습니다.
 해당 값이 켜져있으면 다른 부분에서 어색한 움직임이 나타났고, None이 되면 적들끼리 겹치는 문제가 발생했습니다.
 
-Docs나 웹에서 Obstacle Avoidance에 대한 정보를 충분히 찾지 못하였기 때문에, 우선 NavMesh의 기능을 통해 Path만 알아내고, 이를 Rigidbody의 Move로 이동하는 방식을 해결을 시도하였습니다.
+Docs나 웹에서 Obstacle Avoidance에 대한 정보를 충분히 찾지 못하였기 때문에, 우선 NavMesh의 기능을 통해 Path만 알아내고, 이를 Rigidbody의 Move로 이동하는 방식으로 해결을 시도하였습니다.
 
-그러나 적이 뭉쳐있을 때 여전히 자연스럽지 않고, 기존 OffMeshLink를 처음부터 다시 구현해는 문제, AI끼리 충돌 시 부자연스럽게 밀리는 문제가 추가적으로 발생했습니다.
+그러나 적이 뭉쳐있을 때 여전히 자연스럽지 않고, 기존 OffMeshLink를 처음부터 다시 구현해야 하는 문제, AI끼리 충돌 시 부자연스럽게 밀리는 문제가 추가적으로 발생했습니다.
 
 해당 안은 빠르게 폐기하고, 다른 안인 주변을 매 사이클 검사해서 적이 있으면 Obstacle Avoidance를 High로, 적이 없으면 None으로 두는 방식을 적용하였습니다.
 
