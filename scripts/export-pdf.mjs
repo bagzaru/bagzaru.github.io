@@ -35,6 +35,7 @@ for (let index = 0; index < pages.length; index++) {
   renderPage();
   const sheet = article.cloneNode(true);
   sheet.classList.add('pdf-sheet');
+  sheet.querySelectorAll('.web-only').forEach(node => node.remove());
   sheet.id = 'pdf-' + pages[index].id;
   sheet.querySelectorAll('[id]').forEach(node => node.removeAttribute('id'));
   sheet.querySelectorAll('video').forEach(video => {

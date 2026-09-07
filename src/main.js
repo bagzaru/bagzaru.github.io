@@ -124,6 +124,12 @@ function renderPage({ backwards = false, focus = false } = {}) {
   article.className = `document ${page.id === 'introduction' ? 'introduction' : ''} ${page.layout || ''}`;
   const context = page.level > 0 ? `프로젝트 경험${page.parent ? ` / ${page.parent}` : ''}` : page.title;
   article.innerHTML = `${page.layout === 'section-cover' ? '' : `<div class="document-eyebrow"><span>${page.number}</span><span>${context}</span></div>`}${markup}`;
+  if (page.id === 'cover') {
+    const hint = document.createElement('p');
+    hint.className = 'web-only';
+    hint.textContent = '스크롤이나 방향키로 페이지를 넘길 수 있습니다';
+    article.querySelector('h1').after(hint);
+  }
   if (page.id === 'introduction') arrangeIntroduction();
   if (page.id === 'journey') arrangeJourney(article);
   arrangeProjectDetails();
